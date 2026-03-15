@@ -1,0 +1,30 @@
+Intruccción Selectiva en lugar de if
+
+while para validar las computadoras entre 1 y 20
+n: no más registros
+
+Varibles
+Operadores
+Estructuras
+
+Selectivas
+    - switch
+    - if
+    - anidación de ifs, no más de 3 niveles
+Repetitivas
+    - while
+    - do-while
+    - for
+
+Buenas Prácticas de Ingeniería
+    - Camel Case y Contexto
+
+Fase 4: Datos condicionales
+    1 - Primaria
+    2 - Secundaria
+    3 - Bachillerato
+    4 - Universidad
+
+Fase 5: Cierre y Continuidad
+    != 3 cerrar
+    Registrar otro usuario s/n
