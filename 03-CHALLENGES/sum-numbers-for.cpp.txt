@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int casesNumber;
+    int firstNumber;
+    int secondNumber;
+
+    cout << "Casos a resolver: ";
+    cin >> casesNumber;
+
+    for( int i = 0; i < casesNumber; i ++ ) {
+        cout << "\nCaso " << ( i + 1 ) << endl;
+        cout << "\tPrimer numero: ";
+        cin >> firstNumber;
+        cout << "\tSegundo numero: ";
+        cin >> secondNumber;
+        cout << "\tResultado: " << ( firstNumber * secondNumber ) << endl;
+    }
+
+    return 0;
+}

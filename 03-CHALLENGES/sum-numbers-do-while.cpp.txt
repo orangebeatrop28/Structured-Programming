@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 0;
+    int casesNumber;
+    int firstNumber;
+    int secondNumber;
+
+    cout << "Casos a resolver: ";
+    cin >> casesNumber;
+
+    do {
+        cout << "\nCaso " << ( i + 1 ) << endl;
+        cout << "\tPrimer numero: ";
+        cin >> firstNumber;
+        cout << "\tSegundo numero: ";
+        cin >> secondNumber;
+        cout << "\tResultado: " << ( firstNumber * secondNumber ) << endl;
+        i ++;
+    }
+    while( i < casesNumber );
+
+    return 0;
+}

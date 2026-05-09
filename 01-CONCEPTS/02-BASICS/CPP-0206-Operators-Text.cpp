@@ -4,8 +4,13 @@ using namespace std;
 int main() {
     // Text
     char value = 'a';
-    string values = "Joshua" + " " + "hello " + 2;
-    // Joshua hello 2
-    cout << values << endl;
+    string name = "Joshua";
+    string lastName = "JHS";
+    string fullName = name + " " + lastName;
+    cout << fullName << endl;
+
+    cout << "First"s + " & " + "Second String" << endl;
+    cout << string( "First" ) + " & " + "Second String" << endl;
+    cout << "First" << " & " << "Second String" << endl;
     return 0;
 }
